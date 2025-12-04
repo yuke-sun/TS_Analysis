@@ -9,7 +9,7 @@ ins = EikonFunctions()
 
 
 ######################## Inputs #####################
-list = pd.read_csv(loc + r"\inputs\msci_ric.csv")
+list = pd.read_csv(loc + r"\inputs\mapping.csv")
 start_date = "2015-10-01"
 end_date = "2025-12-01"
 ts_freq = ["EndOfDay"]     ## ["EndOfDay", "Monthly"]

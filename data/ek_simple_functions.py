@@ -37,16 +37,21 @@ class EikonFunctions:
             name = today + '_TS.csv'
         return df, name
     
-    def get_timeseries_close(self, ric, start_date, end_date):
+    def get_timeseries_close(self, rics, start_date, end_date):
         '''
-        ric = ['ric1','ric2']
+        ric = ['ric1','ric2'] OR single ric
 
         '''
-        df = ek.get_timeseries(ric, 
-                            start_date=start_date,  
-                            end_date=end_date, fields= ['CLOSE'])
+        df = pd.DataFrame()
+
+        for ric in rics:
+
+            df_temp = ek.get_timeseries(ric, 
+                                start_date=start_date,  
+                                end_date=end_date, fields= ['CLOSE'])
+            df_temp.rename(columns={"CLOSE": ric}, inplace=True)
+            df = pd.merge(df, df_temp, left_index= True, right_index= True, how = 'outer')
     
-        
         return df
 
     def get_ts_data(self, ric, start_date, end_date):

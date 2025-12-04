@@ -1,0 +1,30 @@
+﻿Name,RIC,Region,Size,Frequency
+MSCI World IMI Price Index USD,.dMIWO000I0PUS,DM World,Allcap,EndOfDay
+MSCI Emerging Markets IMI Price Index USD,.dMIEF000I0PUS,EM World,Allcap,EndOfDay
+MSCI ACWI IMI Price Index USD,.dMIWD000I0PUS,AC World,Allcap,EndOfDay
+MSCI North America IMI Price Index USD,.dMINA000I0PUS,North America,Allcap,EndOfDay
+MSCI Europe IMI Price Index USD,.dMIEU000I0PUS,DM Europe,Allcap,EndOfDay
+MSCI Europe Ex United Kingdom IMI Price Index USD,.dMIUG000I0PUS,DM Europe ex UK,Allcap,EndOfDay
+MSCI Emerging Markets EMEA IMI Price Index USD,.dMIEE000I0PUS,EMEA,Allcap,EndOfDay
+MSCI Emerging Markets Europe IMI Price Index USD,.dMIMU000I0PUS,EM Europe,Allcap,EndOfDay
+MSCI AC Europe IMI Price Index USD,.dMIER000I0PUS,AC Europe,Allcap,EndOfDay
+MSCI World Ex United States IMI Price Index USD,.dMIWOU00I0PUS,DM World ex USA,Allcap,EndOfDay
+MSCI AC Asia Ex Japan IMI Price Index USD,.dMIAX000I0PUS,DM+EM Asia ex Japan,Allcap,EndOfDay
+MSCI AC Asia Pacific Ex Japan IMI Price Index USD,.dMISX000I0PUS,DM+EM Asia Pacific ex Japan,Allcap,EndOfDay
+MSCI Canada IMI Price Index USD,.dMICA000I0PUS,Canada,Allcap,EndOfDay
+MSCI United States IMI Price Index USD,.dMIUS000I0PUS,USA,Allcap,EndOfDay
+MSCI Austria IMI Price Index USD,.dMIAT000I0PUS,Austria,Allcap,EndOfDay
+MSCI Belgium IMI Price Index USD,.dMIBE000I0PUS,Belgium,Allcap,EndOfDay
+MSCI Denmark IMI Price Index USD,.dMIDK000I0PUS,Denmark,Allcap,EndOfDay
+MSCI Finland IMI Price Index USD,.dMIFI000I0PUS,Finland,Allcap,EndOfDay
+MSCI France IMI Price Index USD,.dMIFR000I0PUS,France,Allcap,EndOfDay
+MSCI Germany IMI Price Index USD,.dMIDE000I0PUS,Germany,Allcap,EndOfDay
+MSCI Ireland IMI Price Index USD,.dMIIE000I0PUS,Ireland,Allcap,EndOfDay
+MSCI Israel IMI Price Index USD,.dMIIL000I0PUS,Israel,Allcap,EndOfDay
+MSCI Italy IMI Price Index USD,.dMIIT000I0PUS,Italy,Allcap,EndOfDay
+MSCI Netherlands IMI Price Index USD,.dMINL000I0PUS,Netherlands,Allcap,EndOfDay
+MSCI Norway IMI Price Index USD,.dMINO000I0PUS,Norway,Allcap,EndOfDay
+MSCI Portugal IMI Price Index USD,.dMIPT000I0PUS,Portugal,Allcap,EndOfDay
+MSCI Spain IMI Price Index USD,.dMIES000I0PUS,Spain,Allcap,EndOfDay
+MSCI Sweden IMI Price Index USD,.dMISE000I0PUS,Sweden,Allcap,EndOfDay
+MSCI Switzerland IMI Price Index USD,.dMICH000I0PUS,Switzerland,Allcap,EndOfDay

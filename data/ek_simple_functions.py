@@ -50,6 +50,7 @@ class EikonFunctions:
                                 start_date=start_date,  
                                 end_date=end_date, fields= ['CLOSE'])
             df_temp.rename(columns={"CLOSE": ric}, inplace=True)
+            # df_temp.index = pd.to_datetime(df_temp.index).tz_localize(None)
             df = pd.merge(df, df_temp, left_index= True, right_index= True, how = 'outer')
     
         return df

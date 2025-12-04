@@ -6,8 +6,6 @@ MSCI North America IMI Price Index USD,.dMINA000I0PUS,North America,Allcap,EndOf
 MSCI Europe IMI Price Index USD,.dMIEU000I0PUS,DM Europe,Allcap,EndOfDay
 MSCI Europe Ex United Kingdom IMI Price Index USD,.dMIUG000I0PUS,DM Europe ex UK,Allcap,EndOfDay
 MSCI Emerging Markets EMEA IMI Price Index USD,.dMIEE000I0PUS,EMEA,Allcap,EndOfDay
-MSCI AC Asia Pacific Ex Japan IMI Price Index USD,.dMISX000I0PUS,DM Asia Pacific ex Japan,Allcap,EndOfDay
-MSCI AC Asia Pacific IMI Price Index USD,.dMIAP000I0PUS,DM Asia Pacific,Allcap,EndOfDay
 MSCI Emerging Markets Europe IMI Price Index USD,.dMIMU000I0PUS,EM Europe,Allcap,EndOfDay
 MSCI AC Europe IMI Price Index USD,.dMIER000I0PUS,AC Europe,Allcap,EndOfDay
 MSCI World Ex United States IMI Price Index USD,.dMIWOU00I0PUS,DM World ex USA,Allcap,EndOfDay

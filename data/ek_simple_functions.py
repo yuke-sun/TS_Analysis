@@ -36,6 +36,18 @@ class EikonFunctions:
             today = datetime.today().strftime('%Y%m%d')
             name = today + '_TS.csv'
         return df, name
+    
+    def get_timeseries_close(self, ric, start_date, end_date):
+        '''
+        ric = ['ric1','ric2']
+
+        '''
+        df = ek.get_timeseries(ric, 
+                            start_date=start_date,  
+                            end_date=end_date, fields= ['CLOSE'])
+    
+        
+        return df
 
     def get_ts_data(self, ric, start_date, end_date):
 

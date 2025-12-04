@@ -11,6 +11,7 @@ class EikonFunctions:
 
     def __init__(self):
 
+        # personal key from Yuke
         ek.set_app_key('5ecc2777ab114a7f8e8b0dccf47907cee7ec9b5c')
 
 

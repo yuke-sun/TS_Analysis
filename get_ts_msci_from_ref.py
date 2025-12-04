@@ -23,7 +23,7 @@ ric_to_name_dic = list.set_index('RIC')['Name'].to_dict()
 today = datetime.today().strftime('%Y%m%d')
 df = ins.get_timeseries_close(ric,start_date,end_date)
 df_renamed = df.rename(columns = ric_to_name_dic)
-df.to_csv(loc + r"\TS\msci_ts.csv")
+# df.to_csv(loc + r"\TS\msci_ts.csv")
 
 ## clease & rebase
 df_rebased = ts_clease(df = df_renamed, start_date= start_date, base_value= base_value, freq= final_freq)
